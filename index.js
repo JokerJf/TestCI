@@ -3,7 +3,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-  res.send(`Приложение работает! Версия: ${process.env.APP_VERSION || '1.0.0'}`);
+  res.send(`Приложение работает! Версия: ${process.env.APP_VERSION || '1.0.0'} XD`);
 });
 
 app.listen(PORT, () => {
